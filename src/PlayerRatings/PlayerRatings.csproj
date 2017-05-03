@@ -27,6 +27,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="1.1.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="1.1.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="1.1.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.1" />
@@ -40,7 +41,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="1.1.1" />
     <PackageReference Include="Csv" Version="1.0.11" />
     <PackageReference Include="MailKit" Version="1.10.2" />
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="1.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="1.1.2" />
   </ItemGroup>
