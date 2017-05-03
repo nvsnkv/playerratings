@@ -1,18 +1,13 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26114.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AC3D0764-9746-4E53-BFCA-7546B92FC134}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B8398BA2-B790-4CD7-B4FB-FC41B5CCDBB9}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerRatings", "src\PlayerRatings\PlayerRatings.csproj", "{BEE824C7-3201-47C1-A4D9-2DADD2DC6535}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PlayerRatings", "src\PlayerRatings\PlayerRatings.xproj", "{BEE824C7-3201-47C1-A4D9-2DADD2DC6535}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PlayerRatings.UnitTests", "test\PlayerRatings.UnitTests\PlayerRatings.UnitTests.xproj", "{BA022466-869E-4DFD-A717-8FAC1483C2D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerRatings.UnitTests", "test\PlayerRatings.UnitTests\PlayerRatings.UnitTests.csproj", "{BA022466-869E-4DFD-A717-8FAC1483C2D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
